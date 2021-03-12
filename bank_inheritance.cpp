@@ -4,9 +4,10 @@ using namespace std;
 class accbase{
 std::string accno;
 std::string accname;
+ double m_balance;
 
 public:
-double m_balance;
+
 accbase(std::string no,std::string name,double balance):accno(no),accname(name),m_balance(balance)
 {
 
