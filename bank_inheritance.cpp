@@ -4,7 +4,7 @@ using namespace std;
 class accbase{
 std::string accno;
 std::string accname;
- double m_balance;
+double m_balance;
 
 public:
 
